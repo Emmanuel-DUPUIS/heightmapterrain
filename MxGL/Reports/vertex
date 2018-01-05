@@ -1,0 +1,10 @@
+Vector2f uv0;
+Vector2f uv1;
+Vector4f p0;
+Vector4f p1;
+Vector2f uv2;
+Vector2f uv3;
+Vector4f p2;
+Vector4f p3;
+Vector3f _alignment;
+float    tesselation;

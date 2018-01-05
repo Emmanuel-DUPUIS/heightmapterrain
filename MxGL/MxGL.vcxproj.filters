@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\MxLight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\MxTerrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\MxGLObjects.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\MxScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\MxLightAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\MxHeightComputation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\MxLight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MxTerrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MxGLObjects.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MxViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MxScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MxFlyAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MxLightAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MxHeightAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MxAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MxHeightComputation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="Shaders\header.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\map_fragment.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\map_pointgeometry.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\map_vertex.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\map_wiregeometry.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\tx_fragment.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\tx_fragment_wireframe.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\tx_geometry.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\tx_geometry_wireframe.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\tx_mapcomputing.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\tx_tesselation_control.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\tx_tesselation_evaluation.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\tx_vertex.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\ubo_heightmap.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\ubo_lighting.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\ubo_positionning.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Shaders\ubo_viewing.glsl">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

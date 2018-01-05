@@ -1,0 +1,3 @@
+Vector2f uv0;
+Vector2f uv1;
+Vector2f tesselate;
